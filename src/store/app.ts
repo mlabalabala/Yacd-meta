@@ -150,8 +150,8 @@ export function updateCollapsibleIsOpen(prefix: string, name: string, v: boolean
 }
 
 const defaultClashAPIConfig = {
-  baseURL: document.getElementById('app')?.getAttribute('data-base-url') ?? 'http://127.0.0.1:9090',
-  secret: '',
+  baseURL: document.getElementById('app')?.getAttribute('data-base-url') ?? 'http://127.0.0.1:11111',
+  secret: 'MDAwLi4uMDAw',
   addedAt: 0,
 };
 // type Theme = 'light' | 'dark';
@@ -159,7 +159,7 @@ const defaultState: StateApp = {
   selectedClashAPIConfigIndex: 0,
   clashAPIConfigs: [defaultClashAPIConfig],
 
-  latencyTestUrl: 'https://www.gstatic.com/generate_204',
+  latencyTestUrl: 'http://www.apple.com/library/test/success.html',
   selectedChartStyleIndex: 0,
   theme: 'dark',
 
